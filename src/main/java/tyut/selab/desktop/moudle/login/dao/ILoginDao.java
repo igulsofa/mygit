@@ -1,6 +1,7 @@
 package main.java.tyut.selab.desktop.moudle.login.dao;
 
-import tyut.selab.desktop.moudle.login.domain.LoginLog;
+
+import main.java.tyut.selab.desktop.moudle.login.domain.LoginLog;
 
 import javax.xml.crypto.Data;
 import java.util.List;

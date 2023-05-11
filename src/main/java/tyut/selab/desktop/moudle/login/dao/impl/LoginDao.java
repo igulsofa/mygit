@@ -1,8 +1,8 @@
 package main.java.tyut.selab.desktop.moudle.login.dao.impl;
 
-import tyut.selab.desktop.moudle.login.dao.ILoginDao;
-import tyut.selab.desktop.moudle.login.domain.LoginLog;
-import tyut.selab.desktop.moudle.student.domain.User;
+
+import main.java.tyut.selab.desktop.moudle.login.dao.ILoginDao;
+import main.java.tyut.selab.desktop.moudle.login.domain.LoginLog;
 
 import javax.xml.crypto.Data;
 import java.util.List;
@@ -26,5 +26,9 @@ public class LoginDao implements ILoginDao {
     @Override
     public int insertLoginLog(LoginLog log) {
         return 0;
+    }
+
+    public static void main(String[] args) {
+        System.out.println("hello");
     }
 }
