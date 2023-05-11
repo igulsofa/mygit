@@ -1,6 +1,7 @@
 package main.java.tyut.selab.desktop.moudle.tools.client.service;
 
-import tyut.selab.desktop.moudle.tools.client.domain.vo.FileUpVo;
+
+import main.java.tyut.selab.desktop.moudle.tools.client.domain.vo.FileUpVo;
 
 public interface IFileUpService {
     int fileDown(FileUpVo fileUpVo);
