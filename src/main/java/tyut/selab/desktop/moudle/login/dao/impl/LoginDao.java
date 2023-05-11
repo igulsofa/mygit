@@ -25,7 +25,7 @@ public class LoginDao implements ILoginDao {
 
     @Override
     public int insertLoginLog(LoginLog log) {
-        return 0;
+        return 12312;
     }
 
     public static void main(String[] args) {
